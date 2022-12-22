@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+body{
+    background:url("https://static.vecteezy.com/ti/gratis-vektor/p3/4371970-winterlandschaft-mit-bergen-am-horizont-kiefernwald-und-schnee-hintergrund-fur-deine-kreativitat-kostenlos-vektor.jpg");
+}
+.text-wrapper{
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+}
+
+h3{
+    margin-top: 15px;
+
+}
+
+#hint{
+    color:red;
+}
+.input-form{
+    margin: 10px 0 10px;
+}
+.submit-class{
+    background: cornflowerblue;
+    color: white;
+    border: 1px solid cornflowerblue;
+    margin-left: 8px;
+}
+#wrong-answer{
+    color: red;
+}
+
+.hidden-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.final-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.hidden{
+    display: none;
+}
+input{
+    padding: 5px 8px;
+}
+.flag-container img{
+    margin-top: 15px;
+    width: 100px;
+}
+
